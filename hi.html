@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Mukhammadaziz.uz</title>
+    <style>
+      table,th,td {border: lpx solid black;}
+    </style>
+</head>
+<body data-feature-name$="muhammadaziz.uz">
+<h1>Saytga xush kelibsiz</h1>
+<h2>Bu menig web saytim</h2>
+<h3>Bu saytda turli dasturlarni o'rganishingiz mumkin</h3>
+<h4>masalan:</h4>
+<h5 id="top">Elektron
+xabaringizni qoldiring.</h5>
+<a href="mailto:info@example.uz">
+E-pochta</a>
+<fieldset>
+<legend> Fikringiz: </legend>
+<p> <label> Ushbu Maktab haqida qayerdan ma'lumot oldingiz? </label>
+<select name="rek">
+<option value="internet">Internet</option>
+<option value="tv">TV reklama</option>
+<option value="telegram">Telegram</option>
+<option value="face">Facebook</option>
+</select> </p>
+<p> Kimsiz? <br />
+<label> <input type="radio" name="who" value="1" /> O'quvchi </label>
+<label> <input type="radio" name="who" value="2" /> Talaba </label>
+<label> <input type="radio" name="who" value="3" /> O'qituvchi </label> </p>
+<p> <label> Fikrlaringiz: </label> <br />
+<textarea rows="4" cols="40" name="comments"> </textarea> </p>
+<label> <input type="checkbox" name="news" checked="checked" />
+Yangiliklar yuborish uchun bosing </label> <br />
+<input type="submit" value="Jo'natish" />
+</fieldset>
+<form action="http://ex.uz/file.html"
+method="post">
+<p>Estalik uchun Faylni PDF variantda yuklang:</p>
+<input type="file" name="file" /><br />
+<input type="submit" value="Saqlash" />
+</form>
+<form action="http://ex.uz/login.html" method="get">
+<p>Foydalanuvchi ismi: <br>
+<input type="text" name="username" size="15"
+maxlength="30" /></p>
+<p>Parol: <br>
+<input type="password" name="password" size="15"
+maxlength="30" /></p>
+</form>
+<video src="{% static 'images/dars.mp4' %}"
+poster="{% static 'images/spiderman.png' %}"
+width="800" height="600"
+preload
+controls
+loop>
+</video>
+<p>Kerakli sahifalar:
+<ul>
+<li><a href="http://dr.rtm.uz"
+target=" _ blank">Raqamli resurslar</a></li>
+<li><a href="http://www.ziyonet.uz"
+target=" _ blank">Ziyonet </a></li>
+<li><a href="http://www.eduportal.uz"
+target=" _ blank">Ta’lim portali</a></li>
+</ul>
+</p
+<ul>
+    <object type="application/
+pdf"
+data="pdf/sud jarayoni.pdf"
+width="800"
+height="600">
+</object>
+
+    <li>Python</li>
+    <li>JAVA</li>
+    <li>C++</li>
+    <li>C#</li>
+    <li>Blender</li>
+    <li>3D max</li>
+    <li>AutoCad</li>
+    <li>Android APK yaratish</li>
+    <h6>Quydagilar mana shu Saytlar yordamida o'rganasiz</h6>
+
+<title>{% block head_title_base %}{% if Mukhammadaziz.uz %}{{ Mukhammadaziz.uz }} | {% endif %}{% block head_title %}{% endblock %}{% endblock %}</title><br/><br/>
+
+</ul>
+<table style="width:230%">
+   <tr>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td>https://appsgeyser.com</td>
+        <td>https://www.youtube.com/channel/UCpTN4Vf2ZYJAjKm6abc7j2A</td>
+    </tr>
+</table>
+        <h7>Quydagilarni googlega nushalab qo'ying</h7>
+        <h8>Siz Bizni tanlaganingizdan mamnunmiz!</h8>
+         <li>Yana bizni saytimizga kirasiz degan umiddamiz!</li>
+        <h9>SAVOL TAKLIFLAR BO'LSA:Telegram manzilimiz:@madaminov0428
+        telefon manzil:+998993931128</h9>
+
+
+<div class="container-fluid">
+  <div class="row img-bg">
+    <div class="col-sm-12">
+      <a href='#'>Yuqori Qatorga Chiqish Uchun</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+{% load static %}
+<html>
+<head>
+    <title>KrazyProgrammer</title>
+    <style>
+        a{
+            color:white;
+            background-color:red;
+            padding:5px 15px 5px 15px;
+            text-decoration:none;
+            border-radius:5px;
+            display: block;
+            width: 120px;
+        }
+        body
+        {
+            background-image:url({% static 'images/name.png' %});
+        }
+
+        * {box-sizing: border-box;}
+        body {font-family: Verdana, sans-serif;}
+        .mySlides {display: none;}
+        img {vertical-align: middle;}
+
+        /* Slideshow container */
+        .slideshow-container {
+
+            position: relative;
+            margin: auto;
+        }
+
+        /* Caption text */
+        .text {
+            color: black;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/13 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+        }
+
+        @keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .text {font-size: 11px}
+        }
+    </style>
+</head>
+<body>
+<table border="0" width="100%" height="10%"  style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;border-bottom:1px dotted white;box-shadow:1px 1px 5px white;">
+    <tr>
+
+        <td style="color:red;font-size:50px;font-weight:bold;text-shadow:2px 2px 2px white"></td>
+        <td width="10%" align="center"> <a href="index">Uy</a></td>
+        <td width="10%" align="center"> <a href="about">Haqida</a></td>
+        <td width="10%" align="center"> <a href="projectreg">Contact</a></td>
+        <td width="10%" align="center"> <a href="projectlist">Gallery</a></td>
+        <td width="10%" align="center"> <a href="admin">Admin</a></td>
+
+    </tr>
+</table><br><br><br><br><br><br><br>
+
+<table border="0" style="box-shadow:1px 1px 10px white" width="100%" height="70%" align="center">
+    <tr>
+        <td align="center" valign="top">
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                    <div class="numbertext">1 / 13</div>
+                    <img src="{% static 'images/fbn1.png' %}" style="width:1100px" height="350px">
+                    <div class="text">Birinchi Sarlavha</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 13</div>
+                    <img src="{% static 'images/fbn2.png' %}" style="width:1100px" height="350px">
+                    <div class="text">Ikkinchi Sarlavha</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 13</div>
+                    <img src="{% static 'images/fbn3.jpg' %}" style="width:1100px" height="350px">
+                    <div class="text">Uchinchi Sarlavha</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 13</div>
+                    <img src="{% static 'images/fbn4.jpg' %}" style="width:1100px" height="350px">
+                    <div class="text">To'rtinchi Sarlavha</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 13</div>
+                    <img src="{% static 'images/salom.jpg' %}" style="width:1100px" height="350px">
+                    <div class="text">Beshinchi Sarlavha</div>
+
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 13</div>
+                    <img src="{% static 'images/images.jpg' %}" style="width:1100px" height="350px">
+                    <div class="text">Oltinchi Sarlavha</div>
+
+
+                </div>
+                 <div class="mySlides fade">
+                    <div class="numbertext">7 / 13</div>
+                    <img src="{% static 'images/images_bir.jpg' %}" style="width:1100px" height="350px">
+                    <div class="text">Yettinchi Sarlavha</div>
+
+
+                </div>
+                 <div class="mySlides fade">
+                    <div class="numbertext">8 / 13</div>
+                    <img src="{% static 'images/images_ikki.jpg' %}" style="width:1100px" height="350px">
+                    <div class="text">Sakkizinchi Sarlavha</div>
+
+
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">9 / 13</div>
+                    <img src="{% static 'images/images_uch.jpg' %}" style="width:1100px" height="350px">
+                    <div class="text">To'qqizinchi Sarlavha</div>
+
+
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">10 / 13</div>
+                    <img src="{% static 'images/image.jpg' %}" style="width:1100px" height="350px">
+                    <div class="text">Dsturchining Rasmi</div>
+
+                </div>
+                <div class="mySlides fade">
+                <div class="numbertext">11 / 13</div>
+                    <img src="{% static 'images/men.jpg' %}" style="width:1100px" height="350px">
+                    <div class="text">Dsturchining Surati</div>
+
+                </div>
+                 </div>
+                <div class="mySlides fade">
+                <div class="numbertext">12 / 13</div>
+                    <img src="{% static 'images/xona.jpg' %}" style="width:1100px" height="350px">
+                    <div class="text">Dsturchining xonasi</div>
+
+                </div>
+               </div>
+                <div class="mySlides fade">
+                <div class="numbertext">13 / 13</div>
+                    <img src="{% static 'images/hona.jpg' %}" style="width:1100px" height="350px">
+                    <div class="text">Dsturchining xonasi</div>
+
+                </div>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+
+            </div>
+        </td>
+    </tr>
+    <tr style="background-color:red;color:white;height:25px">
+        <td><marquee behavior="alternate">
+            Saytimga Yana Kiring!.....Посетите мой сайт снова!.....Visit my site again!
+        </marquee></td>
+    </tr>
+</table>
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2``` seconds
+    }
+</script>
+<h2>Dizayn jamoasi 2022 konsert dasturi skachat 3 nuqtani ezing va yuklang</h2>
+<video src="{% static 'images/Dizayn2022.mp4' %}"
+poster="{% static 'images/dizayn.png' %}"
+width="800" height="600"
+preload
+controls
+loop>
+</video>
+</body>
+</html>
